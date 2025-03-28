@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { Button } from "@/components/ui/button"
+import {Button} from "@/components/ui/button"
 import Image from "next/image"
 import {ArrowLeft, ArrowRight, CheckCircle} from "lucide-react"
 import {ServiceDetail, servicesDetails} from "@/lib/data/services";
@@ -10,9 +10,9 @@ const getServiceBySlug = (slug: string): ServiceDetail | undefined => {
     return servicesDetails.find((serviceDetail) => serviceDetail.slug === slug)
 }
 
-const baseUrl = process.env.GITHUB_PAGES ? "/grand-tech" : ""
+const baseUrl = process.env.GITHUB_PAGES ? "/website" : ""
 
-const ServiceDetailPage:FC<PageParams>=async ({params})=> {
+const ServiceDetailPage: FC<PageParams> = async ({params}) => {
     const {slug} = await params;
     const service = getServiceBySlug(slug);
     return (
@@ -27,7 +27,7 @@ const ServiceDetailPage:FC<PageParams>=async ({params})=> {
                             <div className="flex flex-col gap-2 min-[400px]:flex-row">
                                 <Link href="/contact">
                                     <Button size="lg" className="gap-1">
-                                        Get Started <ArrowRight className="h-4 w-4" />
+                                        Get Started <ArrowRight className="h-4 w-4"/>
                                     </Button>
                                 </Link>
                                 <Link href="/portfolio">
@@ -88,7 +88,7 @@ const ServiceDetailPage:FC<PageParams>=async ({params})=> {
                     <div className="mx-auto grid max-w-5xl grid-cols-1 gap-6 py-12 md:grid-cols-2 lg:grid-cols-3">
                         {service?.benefits.map((benefit, index) => (
                             <div key={index} className="flex flex-row gap-4 items-start">
-                                <CheckCircle className="h-6 w-6 text-primary flex-shrink-0 mt-1" />
+                                <CheckCircle className="h-6 w-6 text-primary flex-shrink-0 mt-1"/>
                                 <p className="text-muted-foreground">{benefit}</p>
                             </div>
                         ))}
@@ -158,7 +158,7 @@ const ServiceDetailPage:FC<PageParams>=async ({params})=> {
                         <div className="flex flex-col gap-2 min-[400px]:flex-row">
                             <Link href="/contact">
                                 <Button size="lg" variant="secondary" className="gap-1">
-                                    Contact Us <ArrowRight className="h-4 w-4" />
+                                    Contact Us <ArrowRight className="h-4 w-4"/>
                                 </Button>
                             </Link>
                             <Link href="/services">
@@ -182,5 +182,5 @@ export default ServiceDetailPage;
 
 
 export async function generateStaticParams() {
-    return servicesDetails.map(service => ({ slug: service.slug }));
+    return servicesDetails.map(service => ({slug: service.slug}));
 }

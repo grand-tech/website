@@ -3,7 +3,7 @@ import {Button} from "@/components/ui/button"
 import Image from "next/image"
 import {ArrowRight, Award, Clock, Users} from "lucide-react"
 
-const baseUrl = process.env.GITHUB_PAGES ? "/grand-tech" : ""
+const baseUrl = process.env.GITHUB_PAGES ? "/website" : ""
 
 export default function AboutPage() {
     return (

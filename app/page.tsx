@@ -7,7 +7,7 @@ import {projectsDetails} from "@/lib/data/portfolio";
 import {Badge} from "@/components/ui/badge";
 import {servicesDetails} from "@/lib/data/services";
 
-const baseUrl = process.env.GITHUB_PAGES ? "/grand-tech" : ""
+const baseUrl = process.env.GITHUB_PAGES ? "/website" : ""
 
 export default function Home() {
     return (

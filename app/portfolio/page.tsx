@@ -5,7 +5,7 @@ import {ArrowRight, User} from "lucide-react"
 import {categories, testimonials} from "@/lib/data/home"
 import {projectsDetails} from "@/lib/data/portfolio";
 
-const baseUrl = process.env.GITHUB_PAGES ? "/grand-tech" : ""
+const baseUrl = process.env.GITHUB_PAGES ? "/website" : ""
 
 
 export default function PortfolioPage() {

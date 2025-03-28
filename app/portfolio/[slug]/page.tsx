@@ -11,7 +11,7 @@ const getProjectBySlug = (slug: string) => {
     return projectsDetails.find((projectDetail) => projectDetail.slug === slug);
 };
 
-const baseUrl = process.env.GITHUB_PAGES ? "/grand-tech" : ""
+const baseUrl = process.env.GITHUB_PAGES ? "/website" : ""
 
 
 const ProjectDetailPage: FC<PageParams> = async ({ params }) => {

@@ -5,7 +5,7 @@ import {ArrowRight} from "lucide-react"
 import {processStructure, servicesDetails, technologies} from "@/lib/data/services";
 
 
-const baseUrl = process.env.GITHUB_PAGES ? "/grand-tech" : ""
+const baseUrl = process.env.GITHUB_PAGES ? "/website" : ""
 
 
 export default function ServicesPage() {

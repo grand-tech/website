@@ -8,6 +8,7 @@ import { ModeToggle } from "@/components/mode-toggle"
 import { Menu } from "lucide-react"
 import {usePathname} from "next/navigation";
 import Image from "next/image";
+import logo from "@/components/favicon.ico"
 
 const baseUrl = process.env.GITHUB_PAGES ? "/website" : ""
 
@@ -29,7 +30,7 @@ export const Header=()=> {
     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container flex h-16 items-center justify-between">
         <div className="flex items-center gap-2">
-          <Image src={`./favicon.ico`} alt={"logo"} height={30} width={30} className={"rounded-full"} />
+          <Image src={logo} alt={"logo"} height={30} width={30} className={"rounded-full"} />
           <Link href="/" className="font-bold text-xl">
             GrandSoft Technologies
           </Link>

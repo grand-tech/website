@@ -4,6 +4,7 @@ import {Button} from "@/components/ui/button"
 import {ArrowRight, Link2, LinkIcon, User} from "lucide-react"
 import {categories, testimonials} from "@/lib/data/home"
 import {projectsDetails} from "@/lib/data/portfolio";
+import {getUri} from "@/lib/utils";
 
 const baseUrl = process.env.GITHUB_PAGES ? "/website" : ""
 
@@ -114,7 +115,7 @@ export default function PortfolioPage() {
                   </div>
                   <div className="mt-6 flex items-center space-x-4">
                     <div className="rounded-full bg-muted border-2 border-primary">
-                      <Image src={testimonial.image} alt={testimonial.name} width={30} height={30} className={"rounded-full"} />
+                      <Image src={getUri(testimonial.image)} alt={testimonial.name} width={30} height={30} className={"rounded-full"} />
                     </div>
                     <div>
                       <p className="text-sm font-medium">{testimonial.name}</p>

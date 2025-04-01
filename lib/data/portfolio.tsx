@@ -145,7 +145,7 @@ export const projectsDetails: ProjectDetail[] = [
         ],
         testimonial: {
             quote:
-                "The e-commerce platform developed by Grandsoft has transformed our online business. The attention to detail, focus on user experience, and robust backend systems have helped us scale our operations and significantly increase our revenue. Their team was professional, responsive, and truly understood our business needs.",
+                "The e-commerce platform developed by GrandTech has transformed our online business. The attention to detail, focus on user experience, and robust backend systems have helped us scale our operations and significantly increase our revenue. Their team was professional, responsive, and truly understood our business needs.",
             author: "Liz M.",
             position: "E-commerce Director",
             company: "YellowDot Ltd.",
@@ -568,15 +568,15 @@ export const projectsDetails: ProjectDetail[] = [
         testimonial: {
             quote:
                 "Working with TechSolutions on our travel booking app was a game-changer for our business. They understood our vision and delivered an app that exceeds our expectations in terms of functionality, performance, and user experience. The app has significantly expanded our market reach and established us as a serious competitor in the online travel space.",
-            author: "Michael Torres",
+            author: "Michael N.",
             position: "CEO",
             company: "Wanderlust Travel",
         },
         images: [
-            "/pictures/placeholder.svg?height=600&width=800&text=App+Homepage",
-            "/pictures/placeholder.svg?height=600&width=800&text=Flight+Search",
-            "/pictures/placeholder.svg?height=600&width=800&text=Hotel+Booking",
-            "/pictures/placeholder.svg?height=600&width=800&text=Itinerary+View",
+            "/pictures/travel.jpeg?height=600&width=800&text=App+Homepage",
+            "/pictures/travel.jpeg?height=600&width=800&text=Flight+Search",
+            "/pictures/travel.jpeg?height=600&width=800&text=Hotel+Booking",
+            "/pictures/travel.jpeg?height=600&width=800&text=Itinerary+View",
         ],
         mainImage: "/pictures/travel.jpeg?height=600&width=800&text=Travel+App",
         nextProject: "financial-dashboard",
@@ -666,15 +666,15 @@ export const projectsDetails: ProjectDetail[] = [
         testimonial: {
             quote:
                 "The financial dashboard developed by TechSolutions has transformed how we interact with clients and manage portfolios. Our clients love the intuitive interface and real-time insights, while our advisors benefit from powerful analytical tools. The solution has not only improved our operational efficiency but has become a key differentiator in our client acquisition and retention efforts.",
-            author: "Jennifer Blackwell",
+            author: "Jennifer A",
             position: "Chief Digital Officer",
             company: "InvestPro Financial Services",
         },
         images: [
-            "/pictures/placeholder.svg?height=600&width=800&text=Portfolio+Overview",
-            "/pictures/placeholder.svg?height=600&width=800&text=Performance+Analytics",
-            "/pictures/placeholder.svg?height=600&width=800&text=Asset+Allocation",
-            "/pictures/placeholder.svg?height=600&width=800&text=Advisor+Dashboard",
+            "/pictures/finance.jpeg?height=600&width=800&text=Portfolio+Overview",
+            "/pictures/finance.jpeg?height=600&width=800&text=Performance+Analytics",
+            "/pictures/finance.jpeg?height=600&width=800&text=Asset+Allocation",
+            "/pictures/finance.jpeg?height=600&width=800&text=Advisor+Dashboard",
         ],
         mainImage: "/pictures/finance.jpeg?height=600&width=800&text=Financial+Dashboard",
         nextProject: "restaurant-ordering-system",
@@ -764,15 +764,15 @@ export const projectsDetails: ProjectDetail[] = [
         testimonial: {
             quote:
                 "The restaurant ordering system developed by TechSolutions has revolutionized our operations. We've reduced errors, improved efficiency, and gained valuable insights into our business. Our staff adapted quickly to the intuitive interfaces, and our customers appreciate the seamless experience whether dining in or ordering online. The system has been a critical factor in our recent expansion.",
-            author: "Carlos Rodriguez",
+            author: "Evans R.",
             position: "Operations Director",
             company: "Fusion Restaurant Group",
         },
         images: [
-            "/pictures/placeholder.svg?height=600&width=800&text=Online+Ordering",
-            "/pictures/placeholder.svg?height=600&width=800&text=Server+Tablet",
-            "/pictures/placeholder.svg?height=600&width=800&text=Kitchen+Display",
-            "/pictures/placeholder.svg?height=600&width=800&text=Management+Dashboard",
+            "/pictures/order.jpeg?height=600&width=800&text=Online+Ordering",
+            "/pictures/order.jpeg?height=600&width=800&text=Server+Tablet",
+            "/pictures/order.jpeg?height=600&width=800&text=Kitchen+Display",
+            "/pictures/order.jpeg?height=600&width=800&text=Management+Dashboard",
         ],
         mainImage: "/pictures/order.jpeg?height=600&width=800&text=Restaurant+System",
         nextProject: "fitness-tracking-app",
@@ -864,15 +864,15 @@ export const projectsDetails: ProjectDetail[] = [
         testimonial: {
             quote:
                 "TechSolutions delivered an exceptional fitness app that perfectly aligns with our brand and mission. The app has not only provided a new revenue stream but has significantly expanded our reach and engagement with our community. The team's understanding of both technology and fitness industry needs resulted in a product that truly stands out in a crowded market.",
-            author: "Lisa Martinez",
+            author: "Lisa K.",
             position: "Founder & CEO",
             company: "FitLife Wellness",
         },
         images: [
-            "/pictures/placeholder.svg?height=600&width=800&text=Workout+Tracking",
-            "/pictures/placeholder.svg?height=600&width=800&text=Nutrition+Logging",
-            "/pictures/placeholder.svg?height=600&width=800&text=Progress+Charts",
-            "/pictures/placeholder.svg?height=600&width=800&text=Community+Features",
+            "/pictures/fitness.jpeg?height=600&width=800&text=Workout+Tracking",
+            "/pictures/fitness.jpeg?height=600&width=800&text=Nutrition+Logging",
+            "/pictures/fitness.jpeg?height=600&width=800&text=Progress+Charts",
+            "/pictures/fitness.jpeg?height=600&width=800&text=Community+Features",
         ],
         mainImage: "/pictures/fitness.jpeg?height=600&width=800&text=Fitness+App",
         nextProject: "e-commerce-platform",

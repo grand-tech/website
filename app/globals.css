@@ -1,4 +1,5 @@
 @import "tailwindcss";
+@config "../tailwind.config.ts"
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -52,7 +53,7 @@
 
 @layer base {
   * {
-    /*@apply border-border;*/
+    @apply border-border;
   }
   body {
     @apply bg-background text-foreground;

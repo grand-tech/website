@@ -1,7 +1,7 @@
 import Link from "next/link"
 import {Button} from "@/components/ui/button"
 import Image from "next/image"
-import {ArrowLeft, ArrowRight, CheckCircle} from "lucide-react"
+import {ArrowRight, CheckCircle} from "lucide-react"
 import {ServiceDetail, servicesDetails} from "@/lib/data/services";
 import {FC} from "react";
 import {PageParams} from "@/lib/utils";

@@ -595,6 +595,208 @@ export const servicesDetails: ServiceDetail[] = [
         image: "/pictures/custom.png?height=600&width=800&text=Custom+Software",
     },
     {
+        slug: "digital-marketing",
+        title: "Digital Marketing",
+        icon: <BarChart className="h-10 w-10"/>,
+        link: "/services/digital-marketing",
+        description:
+            "Strategic digital marketing services to increase your online visibility, engage your audience, and drive conversions.",
+        longDescription:
+            "Our digital marketing services help businesses establish a strong online presence, reach their target audience, and achieve measurable results. We develop comprehensive strategies across multiple channels to build brand awareness, generate leads, and drive revenue growth.",
+        options: [
+            {
+                title: "Search Engine Optimization (SEO)",
+                description:
+                    "Improving your website's visibility in search engine results through technical optimization, content strategy, and authoritative backlinks.",
+            },
+            {
+                title: "Pay-Per-Click Advertising (PPC)",
+                description:
+                    "Creating and managing targeted ad campaigns on platforms like Google Ads and social media to drive qualified traffic and conversions.",
+            },
+            {
+                title: "Social Media Marketing",
+                description:
+                    "Building and engaging your audience on social platforms through strategic content, community management, and paid campaigns.",
+            },
+            {
+                title: "Content Marketing",
+                description:
+                    "Developing valuable, relevant content that attracts and retains your target audience while establishing your brand as an industry authority.",
+            },
+        ],
+        benefits: [
+            "Increase brand visibility and awareness in digital channels",
+            "Target specific audience segments with personalized messaging",
+            "Generate qualified leads and improve conversion rates",
+            "Measure marketing performance with detailed analytics",
+            "Optimize marketing spend based on data-driven insights",
+            "Build lasting relationships with customers through engagement",
+        ],
+        process: [
+            {
+                step: "01",
+                title: "Discovery",
+                description:
+                    "We learn about your business, goals, target audience, and competitive landscape to inform our strategy.",
+            },
+            {
+                step: "02",
+                title: "Strategy Development",
+                description:
+                    "We create a comprehensive digital marketing plan tailored to your objectives, audience, and budget.",
+            },
+            {
+                step: "03",
+                title: "Implementation",
+                description:
+                    "We execute the strategy across selected channels, creating campaigns, content, and other marketing assets.",
+            },
+            {
+                step: "04",
+                title: "Monitoring",
+                description: "We continuously track performance using analytics tools to measure progress toward your goals.",
+            },
+            {
+                step: "05",
+                title: "Optimization",
+                description: "We refine campaigns based on data insights to improve performance and maximize ROI.",
+            },
+            {
+                step: "06",
+                title: "Reporting",
+                description:
+                    "We provide regular reports on key metrics and insights, with recommendations for ongoing improvement.",
+            },
+        ],
+        faqs: [
+            {
+                question: "How long does it take to see results from digital marketing?",
+                answer:
+                    "The timeline varies depending on the channels and strategies employed. PPC advertising can generate immediate traffic, while SEO typically takes 3-6 months to show significant results. Social media marketing and content marketing are medium to long-term strategies that build momentum over time. We set realistic expectations and focus on both quick wins and sustainable growth.",
+            },
+            {
+                question: "How do you measure the success of digital marketing campaigns?",
+                answer:
+                    "We establish key performance indicators (KPIs) aligned with your business goals, such as website traffic, lead generation, conversion rates, engagement metrics, or revenue. We use analytics tools to track these metrics and provide regular reports showing progress and insights.",
+            },
+            {
+                question: "What digital marketing channels do you recommend for my business?",
+                answer:
+                    "Our recommendations are based on your specific goals, target audience, industry, and budget. We conduct research to determine where your audience is most active and which channels offer the best potential ROI. We often recommend a multi-channel approach for maximum impact.",
+            },
+            {
+                question: "How much should we budget for digital marketing?",
+                answer:
+                    "Budget requirements vary based on your goals, competitive landscape, and chosen channels. We work with clients at various budget levels and focus on maximizing ROI. We can develop a phased approach that starts with high-priority channels and expands as we demonstrate results.",
+            },
+            {
+                question: "Do you create the content for digital marketing campaigns?",
+                answer:
+                    "Yes, we offer comprehensive content creation services, including copywriting, graphic design, video production, and more. Our team includes creative professionals who develop engaging content aligned with your brand voice and marketing objectives.",
+            },
+            {
+                question: "How do you stay current with digital marketing trends and algorithm changes?",
+                answer:
+                    "Our team engages in continuous learning through industry publications, webinars, conferences, and certification programs. We also conduct regular testing and stay connected with platform representatives to understand changes and best practices. This ensures our strategies remain effective in the evolving digital landscape.",
+            },
+        ],
+        image: "/pictures/digital-marketing.png?height=600&width=800&text=Digital+Marketing",
+    },
+    {
+        slug: "internet-of-things",
+        title: "Internet of Things",
+        icon: "Cpu",
+        description: "Custom IoT solutions that connect devices, gather data, and enable smart automation for improved efficiency and insights.",
+        longDescription: "Our Internet of Things (IoT) services help businesses harness the power of connected devices to gather valuable data, automate processes, and create new opportunities for innovation. We design, develop, and implement end-to-end IoT solutions that integrate seamlessly with your existing systems and provide actionable insights to drive business growth and operational efficiency.",
+        options: [
+            {
+                title: "IoT Strategy & Consulting",
+                description: "Expert guidance on IoT implementation strategy, technology selection, and roadmap development tailored to your specific business needs and objectives.",
+            },
+            {
+                title: "IoT Device Development",
+                description: "Custom hardware and firmware development for IoT devices, including sensor integration, connectivity solutions, and power optimization.",
+            },
+            {
+                title: "IoT Cloud Platforms",
+                description: "Scalable cloud infrastructure for device management, data storage, processing, and analytics to support your IoT ecosystem.",
+            },
+            {
+                title: "IoT Data Analytics",
+                description: "Advanced analytics and visualization tools to transform IoT data into actionable insights for better decision-making and process optimization.",
+            },
+        ],
+        benefits: [
+            "Gain real-time visibility into operations through connected devices and sensors",
+            "Improve efficiency through automated monitoring and predictive maintenance",
+            "Enhance decision-making with data-driven insights from IoT analytics",
+            "Create new revenue streams through IoT-enabled products and services",
+            "Reduce operational costs by optimizing resource utilization",
+            "Increase customer satisfaction with smart, connected products and experiences",
+        ],
+        process: [
+            {
+                step: "01",
+                title: "Discovery",
+                description: "We assess your business needs, identify opportunities for IoT implementation, and define clear objectives for your IoT initiative.",
+            },
+            {
+                step: "02",
+                title: "Solution Architecture",
+                description: "We design a comprehensive IoT architecture including device specifications, connectivity options, data management, and integration points.",
+            },
+            {
+                step: "03",
+                title: "Prototype Development",
+                description: "We create a proof-of-concept to validate the solution design, test key functionalities, and gather feedback for refinement.",
+            },
+            {
+                step: "04",
+                title: "Full Development",
+                description: "We build the complete IoT solution, including hardware configuration, firmware development, cloud platform setup, and analytics implementation.",
+            },
+            {
+                step: "05",
+                title: "Testing & Deployment",
+                description: "We conduct thorough testing of all components and deploy the solution in your environment with minimal disruption.",
+            },
+            {
+                step: "06",
+                title: "Monitoring & Optimization",
+                description: "We provide ongoing support, monitor system performance, and continuously optimize the solution based on real-world data and feedback.",
+            },
+        ],
+        faqs: [
+            {
+                question: "What industries can benefit from IoT solutions?",
+                answer: "IoT solutions can benefit virtually any industry, including manufacturing (smart factories, predictive maintenance), healthcare (remote patient monitoring, asset tracking), agriculture (precision farming, livestock monitoring), retail (inventory management, customer experience), transportation (fleet management, logistics optimization), and smart buildings (energy management, security). The key is identifying specific use cases where connected devices and data can solve business problems or create new opportunities.",
+            },
+            {
+                question: "How secure are IoT implementations?",
+                answer: "Security is a critical aspect of any IoT implementation. We follow a security-by-design approach, incorporating best practices at every level: device security (secure boot, encryption, authentication), network security (TLS/SSL, VPNs, firewalls), cloud security (access controls, encryption, compliance), and application security (secure coding, penetration testing). We also implement continuous monitoring and update mechanisms to address emerging threats and vulnerabilities.",
+            },
+            {
+                question: "What's the typical timeline for an IoT project?",
+                answer: "The timeline varies depending on the complexity of the solution. A simple proof-of-concept might take 4-8 weeks, while a full enterprise IoT implementation could take 6-12 months. We follow an iterative approach, delivering value incrementally rather than waiting for the entire solution to be complete. This allows you to see results sooner and make adjustments based on real-world feedback.",
+            },
+            {
+                question: "How do you handle the large amounts of data generated by IoT devices?",
+                answer: "We design IoT data architectures with scalability in mind, using technologies like time-series databases, data lakes, and stream processing. We implement data lifecycle management policies to determine what data to process in real-time, what to store long-term, and what to aggregate or discard. Our analytics solutions include data visualization, reporting, and advanced analytics to transform raw data into actionable insights.",
+            },
+            {
+                question: "Can IoT solutions integrate with our existing systems?",
+                answer: "Yes, we design IoT solutions to integrate with your existing enterprise systems like ERP, CRM, SCADA, or custom applications. We use standard protocols and APIs where possible, and develop custom integrations when needed. This ensures that IoT data flows seamlessly into your business processes and decision-making systems, maximizing the value of your IoT investment.",
+            },
+            {
+                question: "What connectivity options do you support for IoT devices?",
+                answer: "We support a wide range of connectivity options based on your specific requirements, including Wi-Fi, Bluetooth, cellular (4G/5G), LoRaWAN, Zigbee, Z-Wave, NB-IoT, and satellite. The choice depends on factors like power requirements, range, bandwidth needs, deployment environment, and cost considerations. We help you select the most appropriate connectivity solution for your use case and can implement hybrid approaches when necessary.",
+            },
+        ],
+        image: "/placeholder.svg?height=600&width=800&text=Internet+of+Things",
+        link: ""
+    },
+    {
         slug: "ui-ux-design",
         title: "UI/UX Design",
         icon: <Palette className="h-10 w-10"/>,
@@ -1033,115 +1235,6 @@ export const servicesDetails: ServiceDetail[] = [
             },
         ],
         image: "/pictures/tech-consult.png?height=600&width=800&text=IT+Services",
-    },
-    {
-        slug: "digital-marketing",
-        title: "Digital Marketing",
-        icon: <BarChart className="h-10 w-10"/>,
-        link: "/services/digital-marketing",
-        description:
-            "Strategic digital marketing services to increase your online visibility, engage your audience, and drive conversions.",
-        longDescription:
-            "Our digital marketing services help businesses establish a strong online presence, reach their target audience, and achieve measurable results. We develop comprehensive strategies across multiple channels to build brand awareness, generate leads, and drive revenue growth.",
-        options: [
-            {
-                title: "Search Engine Optimization (SEO)",
-                description:
-                    "Improving your website's visibility in search engine results through technical optimization, content strategy, and authoritative backlinks.",
-            },
-            {
-                title: "Pay-Per-Click Advertising (PPC)",
-                description:
-                    "Creating and managing targeted ad campaigns on platforms like Google Ads and social media to drive qualified traffic and conversions.",
-            },
-            {
-                title: "Social Media Marketing",
-                description:
-                    "Building and engaging your audience on social platforms through strategic content, community management, and paid campaigns.",
-            },
-            {
-                title: "Content Marketing",
-                description:
-                    "Developing valuable, relevant content that attracts and retains your target audience while establishing your brand as an industry authority.",
-            },
-        ],
-        benefits: [
-            "Increase brand visibility and awareness in digital channels",
-            "Target specific audience segments with personalized messaging",
-            "Generate qualified leads and improve conversion rates",
-            "Measure marketing performance with detailed analytics",
-            "Optimize marketing spend based on data-driven insights",
-            "Build lasting relationships with customers through engagement",
-        ],
-        process: [
-            {
-                step: "01",
-                title: "Discovery",
-                description:
-                    "We learn about your business, goals, target audience, and competitive landscape to inform our strategy.",
-            },
-            {
-                step: "02",
-                title: "Strategy Development",
-                description:
-                    "We create a comprehensive digital marketing plan tailored to your objectives, audience, and budget.",
-            },
-            {
-                step: "03",
-                title: "Implementation",
-                description:
-                    "We execute the strategy across selected channels, creating campaigns, content, and other marketing assets.",
-            },
-            {
-                step: "04",
-                title: "Monitoring",
-                description: "We continuously track performance using analytics tools to measure progress toward your goals.",
-            },
-            {
-                step: "05",
-                title: "Optimization",
-                description: "We refine campaigns based on data insights to improve performance and maximize ROI.",
-            },
-            {
-                step: "06",
-                title: "Reporting",
-                description:
-                    "We provide regular reports on key metrics and insights, with recommendations for ongoing improvement.",
-            },
-        ],
-        faqs: [
-            {
-                question: "How long does it take to see results from digital marketing?",
-                answer:
-                    "The timeline varies depending on the channels and strategies employed. PPC advertising can generate immediate traffic, while SEO typically takes 3-6 months to show significant results. Social media marketing and content marketing are medium to long-term strategies that build momentum over time. We set realistic expectations and focus on both quick wins and sustainable growth.",
-            },
-            {
-                question: "How do you measure the success of digital marketing campaigns?",
-                answer:
-                    "We establish key performance indicators (KPIs) aligned with your business goals, such as website traffic, lead generation, conversion rates, engagement metrics, or revenue. We use analytics tools to track these metrics and provide regular reports showing progress and insights.",
-            },
-            {
-                question: "What digital marketing channels do you recommend for my business?",
-                answer:
-                    "Our recommendations are based on your specific goals, target audience, industry, and budget. We conduct research to determine where your audience is most active and which channels offer the best potential ROI. We often recommend a multi-channel approach for maximum impact.",
-            },
-            {
-                question: "How much should we budget for digital marketing?",
-                answer:
-                    "Budget requirements vary based on your goals, competitive landscape, and chosen channels. We work with clients at various budget levels and focus on maximizing ROI. We can develop a phased approach that starts with high-priority channels and expands as we demonstrate results.",
-            },
-            {
-                question: "Do you create the content for digital marketing campaigns?",
-                answer:
-                    "Yes, we offer comprehensive content creation services, including copywriting, graphic design, video production, and more. Our team includes creative professionals who develop engaging content aligned with your brand voice and marketing objectives.",
-            },
-            {
-                question: "How do you stay current with digital marketing trends and algorithm changes?",
-                answer:
-                    "Our team engages in continuous learning through industry publications, webinars, conferences, and certification programs. We also conduct regular testing and stay connected with platform representatives to understand changes and best practices. This ensures our strategies remain effective in the evolving digital landscape.",
-            },
-        ],
-        image: "/pictures/digital-marketing.png?height=600&width=800&text=Digital+Marketing",
     },
     {
         slug: "cybersecurity",

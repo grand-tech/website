@@ -1,6 +1,6 @@
 export const testimonials = [
     {
-        name: "James O.",
+        name: "James K.",
         position: "CEO, MarketWave",
         text: "GrandTech Solutions transformed our online presence! Their SEO and social media strategies helped us reach a wider audience, and our website traffic has doubled in just three months. Highly recommended!",
         image: "/pictures/client1.webp"

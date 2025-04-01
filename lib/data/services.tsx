@@ -706,7 +706,7 @@ export const servicesDetails: ServiceDetail[] = [
     {
         slug: "internet-of-things",
         title: "Internet of Things",
-        icon: "Cpu",
+        icon: <RadioTower className="h-10 w-10"/>,
         description: "Custom IoT solutions that connect devices, gather data, and enable smart automation for improved efficiency and insights.",
         longDescription: "Our Internet of Things (IoT) services help businesses harness the power of connected devices to gather valuable data, automate processes, and create new opportunities for innovation. We design, develop, and implement end-to-end IoT solutions that integrate seamlessly with your existing systems and provide actionable insights to drive business growth and operational efficiency.",
         options: [

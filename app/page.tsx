@@ -6,7 +6,7 @@ import {testimonials} from "@/lib/data/home";
 import {projectsDetails} from "@/lib/data/portfolio";
 import {Badge} from "@/components/ui/badge";
 import {servicesDetails} from "@/lib/data/services";
-import { getUri } from "@/lib/utils";
+import {getUri} from "@/lib/utils";
 
 const baseUrl = process.env.GITHUB_PAGES ? "/website" : ""
 
@@ -64,18 +64,20 @@ export default function Home() {
                         </div>
                     </div>
                     <div className="mx-auto grid max-w-5xl items-center gap-6 py-12 lg:grid-cols-3 lg:gap-12">
-                        {servicesDetails.map((servicesDetails,index)=>(
-                            <div className="flex flex-col justify-center space-y-4">
-                                <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-primary/10 text-primary">
-                                    {servicesDetails.icon}
+                        {servicesDetails.map((servicesDetails, index) => (
+                            <Link href={servicesDetails.link}>
+                                <div className="flex flex-col justify-center space-y-4">
+                                    <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-primary/10 text-primary">
+                                        {servicesDetails.icon}
+                                    </div>
+                                    <div className="space-y-2">
+                                        <h3 className="text-xl font-bold hover:underline hover:underline-offset-4">{servicesDetails.title}</h3>
+                                        <p className="text-muted-foreground">
+                                            {servicesDetails.description}
+                                        </p>
+                                    </div>
                                 </div>
-                                <div className="space-y-2">
-                                    <h3 className="text-xl font-bold">{servicesDetails.title}</h3>
-                                    <p className="text-muted-foreground">
-                                        {servicesDetails.description}
-                                    </p>
-                                </div>
-                            </div>
+                            </Link>
                         ))}
                     </div>
                 </div>
@@ -163,7 +165,7 @@ export default function Home() {
                                 </div>
                                 <div className="p-4">
                                     <h3 className="text-xl font-bold">{project.title}</h3>
-                                    <p className="text-sm text-muted-foreground mt-2 space-x-1">{project.technologies.slice(0, 3).map((technology,index) => (
+                                    <p className="text-sm text-muted-foreground mt-2 space-x-1">{project.technologies.slice(0, 3).map((technology, index) => (
                                         <Badge key={index} variant={"outline"}>{technology.name}</Badge>))}</p>
                                     <p className="mt-2 text-muted-foreground">{project.shortDescription}</p>
                                     <Link href={`/portfolio/${project.slug}`}>
@@ -224,7 +226,7 @@ export default function Home() {
                                 </div>
                                 <div className="mt-6 flex items-center space-x-4">
                                     <div className="rounded-full bg-muted border-2 border-primary">
-                                        <Image src={getUri(testimonial.image)} alt={testimonial.name} width={30} height={30} className={"rounded-full"} />
+                                        <Image src={getUri(testimonial.image)} alt={testimonial.name} width={30} height={30} className={"rounded-full"}/>
                                     </div>
                                     <div>
                                         <p className="text-sm font-medium">{testimonial.name}</p>

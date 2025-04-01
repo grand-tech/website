@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   title: "GrandSoft Technologies - Software Development Agency",
   description: "We build innovative software solutions that drive business growth and enhance user experiences.",
   manifest: "/manifest/manifest.json",
-  icons: "/favicon.ico",
+  // icons: "/favicon.ico",
   authors: {
     name: "Jamie Omondi",
     url: "https://www.linkedin.com/in/jamie-omondi/",

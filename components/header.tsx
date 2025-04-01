@@ -37,7 +37,7 @@ export const Header=()=> {
         {/* Desktop Navigation */}
         <nav className="hidden md:flex gap-6">
           {navItems.map((item) => (
-            <Link key={item.name} href={item.href} className={`text-sm font-medium transition-colors ${pathname===item.href?"text-blue-600":""} hover:text-primary`}>
+            <Link key={item.name} href={item.href} className={`text-sm font-medium transition-colors ${pathname===item.href?"underline underline-offset-4":""} hover:underline underline-offset-4`}>
               {item.name}
             </Link>
           ))}

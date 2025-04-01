@@ -5,6 +5,10 @@ export function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs))
 }
 
+export const getUri=(path:string)=>{
+  return process.env.GITHUB_PAGES ? `/website${path}` : path;
+}
+
 interface Params {
   slug: string;
 }

@@ -145,7 +145,7 @@ export const projectsDetails: ProjectDetail[] = [
         ],
         testimonial: {
             quote:
-                "The e-commerce platform developed by Grandsoft has transformed our online business. The attention to detail, focus on user experience, and robust backend systems have helped us scale our operations and significantly increase our revenue. Their team was professional, responsive, and truly understood our business needs.",
+                "The e-commerce platform developed by GrandTech has transformed our online business. The attention to detail, focus on user experience, and robust backend systems have helped us scale our operations and significantly increase our revenue. Their team was professional, responsive, and truly understood our business needs.",
             author: "Liz M.",
             position: "E-commerce Director",
             company: "YellowDot Ltd.",

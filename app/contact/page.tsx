@@ -93,9 +93,9 @@ export default function ContactPage() {
                     <p className="text-muted-foreground">
                       legendarysoftwaresolutions@gmail.com
                       <br/>
-                      info@grandsofttech.com
+                      info@grandtech.com
                       <br/>
-                      support@grandsofttech.com
+                      support@grandtech.com
                     </p>
                   </div>
                 </div>

@@ -1,7 +1,7 @@
 import Image from "next/image"
 import Link from "next/link"
 import {Button} from "@/components/ui/button"
-import {ArrowRight, User} from "lucide-react"
+import {ArrowRight, Link2, LinkIcon, User} from "lucide-react"
 import {categories, testimonials} from "@/lib/data/home"
 import {projectsDetails} from "@/lib/data/portfolio";
 
@@ -58,11 +58,16 @@ export default function PortfolioPage() {
                   <div className="inline-block rounded-full bg-muted px-3 py-1 text-xs mb-2">{project.category}</div>
                   <h3 className="text-xl font-bold">{project.title}</h3>
                   <p className="mt-2 text-muted-foreground">{project.shortDescription}</p>
+                  <div className={"flex justify-between items-center mt-2 p-0"}>
                   <Link href={`/portfolio/${project.slug}`}>
-                    <Button variant="link" className="mt-2 p-0">
+                    <Button variant="link" className="">
                       View Case Study <ArrowRight className="ml-1 h-4 w-4" />
                     </Button>
                   </Link>
+                    <Link href={project.link?project.link:"/portfolio"} className={"mt-2 p-0 mr-4 hover:text-blue-600"}>
+                      <Link2/>
+                    </Link>
+                  </div>
                 </div>
               </div>
             ))}

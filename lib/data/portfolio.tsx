@@ -52,18 +52,19 @@ export interface ProjectDetail {
     mainImage: string
     nextProject?: string
     prevProject?: string
+    link?:string
 }
 
 
 export const projectsDetails: ProjectDetail[] = [
     {
-        slug: "e-commerce-platform",
-        title: "E-commerce Platform",
+        slug: "e-mart-platform",
+        title: "E-mart Platform",
         category: "E-commerce",
-        client: "RetailPlus Inc.",
-        duration: "6 months",
-        completionDate: "January 2025",
-        location: "New York, USA",
+        client: "YellowDot Ltd.",
+        duration: "12 months",
+        completionDate: "April 2024",
+        location: "Nairobi, Kenya",
         shortDescription: "A comprehensive e-commerce solution with advanced features and seamless user experience.",
         longDescription:
             "We developed a state-of-the-art e-commerce platform for RetailPlus Inc., a growing retail company looking to expand their online presence. The platform includes advanced product management, inventory tracking, customer accounts, secure payment processing, and comprehensive analytics. The solution has significantly increased their online sales and improved operational efficiency.",
@@ -144,29 +145,30 @@ export const projectsDetails: ProjectDetail[] = [
         ],
         testimonial: {
             quote:
-                "The e-commerce platform developed by TechSolutions has transformed our online business. The attention to detail, focus on user experience, and robust backend systems have helped us scale our operations and significantly increase our revenue. Their team was professional, responsive, and truly understood our business needs.",
-            author: "Sarah Johnson",
+                "The e-commerce platform developed by Grandsoft has transformed our online business. The attention to detail, focus on user experience, and robust backend systems have helped us scale our operations and significantly increase our revenue. Their team was professional, responsive, and truly understood our business needs.",
+            author: "Liz M.",
             position: "E-commerce Director",
-            company: "RetailPlus Inc.",
+            company: "YellowDot Ltd.",
         },
         images: [
-            "/pictures/placeholder.svg?height=600&width=800&text=E-commerce+Homepage",
-            "/pictures/placeholder.svg?height=600&width=800&text=Product+Catalog",
-            "/pictures/placeholder.svg?height=600&width=800&text=Shopping+Cart",
-            "/pictures/placeholder.svg?height=600&width=800&text=Admin+Dashboard",
+            "/pictures/emart-1.png?height=600&width=800&text=E-commerce+Homepage",
+            "/pictures/emart-2.png?height=600&width=800&text=Product+Catalog",
+            "/pictures/emart-3.png?height=600&width=800&text=Shopping+Cart",
+            "/pictures/emart-4.png?height=600&width=800&text=Admin+Dashboard",
         ],
-        mainImage: "/pictures/commerce.jpeg?height=600&width=800&text=E-commerce+Platform",
-        nextProject: "healthcare-management-system",
+        mainImage: "/pictures/emart-1.png?height=600&width=800&text=E-commerce+Platform",
+        link:"https://emart.yellowdotenergy.com/",
+        nextProject: "nala-healthcare-management-system",
         prevProject: "fitness-tracking-app",
     },
     {
-        slug: "healthcare-management-system",
-        title: "Healthcare Management System",
+        slug: "nala-healthcare-management-system",
+        title: "Nala Healthcare Management System",
         category: "Enterprise",
-        client: "MediCare Hospital Network",
+        client: "Nala Hospital",
         duration: "12 months",
         completionDate: "November 2024",
-        location: "Boston, USA",
+        location: "Kakamega, Kenya",
         shortDescription: "A secure and efficient system for managing healthcare operations and patient data.",
         longDescription:
             "We developed a comprehensive healthcare management system for MediCare Hospital Network, a group of five hospitals seeking to modernize their operations. The system integrates patient records, appointment scheduling, billing, inventory management, and reporting into a unified platform. This solution has improved operational efficiency, enhanced patient care, and ensured compliance with healthcare regulations.",
@@ -251,14 +253,124 @@ export const projectsDetails: ProjectDetail[] = [
             company: "MediCare Hospital Network",
         },
         images: [
-            "/pictures/placeholder.svg?height=600&width=800&text=Patient+Records",
-            "/pictures/placeholder.svg?height=600&width=800&text=Appointment+Scheduling",
-            "/pictures/placeholder.svg?height=600&width=800&text=Billing+System",
-            "/pictures/placeholder.svg?height=600&width=800&text=Patient+Portal",
+            "/pictures/nala-1.png?height=600&width=800&text=Patient+Records",
+            "/pictures/nala-1.png?height=600&width=800&text=Appointment+Scheduling",
+            "/pictures/nala-1.png?height=600&width=800&text=Billing+System",
+            "/pictures/nala-1.png?height=600&width=800&text=Patient+Portal",
         ],
-        mainImage: "/pictures/health.jpeg?height=600&width=800&text=Healthcare+System",
+        mainImage: "/pictures/nala-1.png?height=600&width=800&text=Healthcare+System",
+        link:"https://www.nalahospital.org/",
+        nextProject: "wellness-journey",
+        prevProject: "e-mart-platform",
+    },
+    {
+        slug: "wellness-journey",
+        title: "Wellness Journey",
+        category: "Health & Wellness",
+        client: "Choosing Me Wellness",
+        duration: "5 months",
+        completionDate: "March 2025",
+        location: "Nairobi, Kenya",
+        shortDescription:
+            "A personalized wellness platform helping individuals track, improve, and maintain their physical and mental wellbeing.",
+        longDescription:
+            "We developed a comprehensive wellness platform for Harmony Wellness Center, a holistic health provider looking to extend their services beyond in-person sessions. The platform offers personalized wellness plans, progress tracking, educational content, virtual consultations, and community features. This solution has helped Harmony expand their reach, improve client outcomes, and create a sustainable digital revenue stream.",
+        challenge:
+            "Harmony Wellness Center was facing limitations with their traditional in-person service model. They wanted to provide continuous support to clients between sessions, reach people unable to visit their physical location, and scale their business without proportionally increasing staff. Additionally, they needed a way to deliver personalized wellness plans and track client progress more effectively than their paper-based system allowed.",
+        approach:
+            "We began with extensive research into both wellness best practices and digital engagement strategies. We conducted interviews with Harmony's practitioners and clients to understand their needs and pain points. Based on these insights, we designed a platform that balanced scientific wellness tracking with an approachable, motivating user experience. We followed a user-centered design process with regular testing and refinement throughout development.",
+        solution:
+            "Our team delivered a comprehensive wellness platform with features including personalized wellness assessments, custom plan generation, progress tracking across multiple dimensions of wellbeing, educational content library, habit formation tools, virtual consultation capabilities, community forums, and practitioner dashboards. The platform uses a responsive design that works across devices and incorporates evidence-based approaches to behavior change and wellbeing improvement.",
+        results:
+            "Since launching the Wellness Journey platform, Harmony Wellness Center has seen a 75% increase in client engagement between sessions, 40% improvement in client retention, and 60% growth in their client base through digital reach. The platform has enabled them to launch a successful subscription model, creating a new revenue stream that now accounts for 35% of their business. Client satisfaction has increased, with 85% reporting that the platform has significantly improved their wellness journey.",
+        technologies: [
+            { name: "React", icon: "Code" },
+            { name: "Node.js", icon: "Server" },
+            { name: "PostgreSQL", icon: "Database" },
+            { name: "AWS", icon: "Cloud" },
+            { name: "Stripe", icon: "CreditCard" },
+            { name: "WebRTC", icon: "Video" },
+        ],
+        challenges: [
+            {
+                title: "Personalization at Scale",
+                description:
+                    "Creating truly personalized wellness plans that could be generated and updated automatically based on individual needs and progress.",
+            },
+            {
+                title: "Engagement & Motivation",
+                description:
+                    "Designing features that would keep users engaged with their wellness journey between sessions and during challenging periods.",
+            },
+            {
+                title: "Data Privacy",
+                description:
+                    "Ensuring sensitive health and wellness data was handled securely while remaining accessible to authorized practitioners.",
+            },
+            {
+                title: "Holistic Tracking",
+                description:
+                    "Developing meaningful ways to track and visualize progress across physical, mental, and emotional dimensions of wellbeing.",
+            },
+        ],
+        solutions: [
+            {
+                title: "AI-Assisted Plan Generation",
+                description:
+                    "Intelligent system that combines practitioner expertise with data-driven recommendations to create personalized wellness plans.",
+            },
+            {
+                title: "Behavioral Science Integration",
+                description:
+                    "Incorporation of proven behavioral science techniques to build habits, maintain motivation, and overcome obstacles.",
+            },
+            {
+                title: "Enterprise-Grade Security",
+                description:
+                    "Comprehensive security measures including encryption, role-based access controls, and compliance with health data regulations.",
+            },
+            {
+                title: "Multi-Dimensional Wellness Tracking",
+                description:
+                    "Innovative tracking and visualization tools that capture the interconnected nature of different wellness dimensions.",
+            },
+        ],
+        outcomes: [
+            {
+                title: "75% Increase in Engagement",
+                description: "Clients actively engage with their wellness plans between sessions, leading to better outcomes.",
+            },
+            {
+                title: "40% Improvement in Retention",
+                description: "The continuous support provided by the platform has significantly reduced client dropout rates.",
+            },
+            {
+                title: "60% Growth in Client Base",
+                description: "Digital reach has allowed Harmony to serve clients regardless of geographic location.",
+            },
+            {
+                title: "35% New Revenue Stream",
+                description:
+                    "The subscription model has created a sustainable digital revenue source complementing in-person services.",
+            },
+        ],
+        testimonial: {
+            quote:
+                "The Wellness Journey platform has transformed our business and the way we support our clients. It's allowed us to provide truly continuous care and reach people we never could have with our physical center alone. The thoughtful design reflects a deep understanding of both wellness principles and digital engagement. Our practitioners and clients alike love using it.",
+            author: "Pri Naiseku M.A",
+            position: "Founder",
+            company: "Choosing Me Wellness",
+        },
+        images: [
+            "/pictures/choose-me-2.png?height=600&width=800&text=Wellness+Dashboard",
+            "/pictures/choose-me-3.png?height=600&width=800&text=Progress+Tracking",
+            "/pictures/choose-me-4.png?height=600&width=800&text=Virtual+Consultation",
+            "/pictures/choose-me-5.png?height=600&width=800&text=Community+Forum",
+        ],
+        mainImage: "/pictures/choose-me-1.png?height=600&width=800&text=Wellness+Journey",
+        link:"https://choosing-me-kenya.web.app/",
         nextProject: "travel-booking-app",
-        prevProject: "e-commerce-platform",
+        prevProject: "wellness-journey",
     },
     {
         slug: "travel-booking-app",
@@ -356,7 +468,7 @@ export const projectsDetails: ProjectDetail[] = [
         ],
         mainImage: "/pictures/travel.jpeg?height=600&width=800&text=Travel+App",
         nextProject: "financial-dashboard",
-        prevProject: "healthcare-management-system",
+        prevProject: "wellness-journey",
     },
     {
         slug: "financial-dashboard",

@@ -158,8 +158,120 @@ export const projectsDetails: ProjectDetail[] = [
         ],
         mainImage: "/pictures/emart-1.png?height=600&width=800&text=E-commerce+Platform",
         link:"https://emart.yellowdotenergy.com/",
-        nextProject: "nala-healthcare-management-system",
+        nextProject: "next-paints-website",
         prevProject: "fitness-tracking-app",
+    },
+    {
+        slug: "next-paints-website",
+        title: "Next Paints Website",
+        category: "Manufacturing",
+        client: "Next Paints Limited",
+        duration: "3 months",
+        completionDate: "April 2025",
+        location: "Uganda",
+        shortDescription:
+            "A modern, responsive website for a paint manufacturing company in Uganda, showcasing their products and services.",
+        longDescription:
+            "We developed a modern, responsive website for Next Paints Limited, a registered paint manufacturing company in Uganda. The website serves as their digital storefront, showcasing their range of quality paints and services while providing an easy way for customers to learn about their products and place orders. The clean, vibrant design reflects the company's brand identity and commitment to quality.",
+        challenge:
+            "Next Paints Limited needed a professional online presence to expand their market reach and compete effectively in the growing Ugandan paint industry. They required a website that would showcase their products effectively, communicate their brand values, and provide an easy way for customers to place orders. Additionally, they needed a solution that would be easy to maintain and update as their product catalog evolved, while ensuring fast loading times despite potential connectivity challenges in their region.",
+        approach:
+            "We began with a thorough analysis of the paint industry in Uganda and Next Paints' specific business goals. We conducted interviews with key stakeholders to understand their brand values, target audience, and competitive advantages. Based on these insights, we created wireframes and design mockups that emphasized vibrant visuals and intuitive navigation. We followed a mobile-first approach to ensure excellent performance across all devices, particularly important in a market where mobile internet usage is predominant.",
+        solution:
+            "Our team delivered a clean, modern website built with Next.js for optimal performance and SEO. The site features a vibrant homepage that immediately communicates the brand's identity, an about section highlighting the company's values and expertise, a comprehensive product catalog with detailed information, a services section, and an easy-to-use contact form. We implemented a streamlined ordering system that allows customers to request quotes or place orders directly. The website is fully responsive, ensuring a seamless experience across desktop, tablet, and mobile devices.",
+        results:
+            "Since launching the new website, Next Paints has seen a 70% increase in online inquiries, 45% growth in their customer base, and significant improvement in brand recognition. The website has helped them expand beyond their local market to reach customers throughout Uganda. The ordering system has streamlined their sales process, reducing the time spent on handling inquiries and allowing the team to focus on production and delivery. The website has also become a valuable tool for their sales representatives, who use it to showcase products during client meetings.",
+        technologies: [
+            { name: "Next.js", icon: "Code" },
+            { name: "React", icon: "Code" },
+            { name: "Tailwind CSS", icon: "Palette" },
+            { name: "TypeScript", icon: "Code" },
+            { name: "Responsive Design", icon: "Smartphone" },
+            { name: "GitHub Pages", icon: "Cloud" },
+        ],
+        challenges: [
+            {
+                title: "Brand Identity Translation",
+                description:
+                    "Translating Next Paints' vibrant brand identity into a digital experience that would resonate with their target audience.",
+            },
+            {
+                title: "Mobile Optimization",
+                description:
+                    "Ensuring excellent performance on mobile devices, which are the primary means of internet access for many Ugandan customers.",
+            },
+            {
+                title: "Product Showcase",
+                description:
+                    "Creating an effective way to showcase paint products, where visual representation and accurate color display are crucial.",
+            },
+            {
+                title: "Performance Optimization",
+                description:
+                    "Building a fast-loading website that would perform well despite potential connectivity challenges in the region.",
+            },
+        ],
+        solutions: [
+            {
+                title: "Vibrant, Brand-Aligned Design",
+                description:
+                    "A clean, colorful design that reflects the company's focus on quality paints while maintaining professional aesthetics.",
+            },
+            {
+                title: "Mobile-First Development",
+                description:
+                    "Responsive design with special attention to mobile user experience, ensuring seamless functionality on all devices.",
+            },
+            {
+                title: "Visual-Centric Product Pages",
+                description:
+                    "Product pages designed to highlight paint colors accurately with detailed specifications and application information.",
+            },
+            {
+                title: "Performance Optimization",
+                description:
+                    "Optimized images, minimal JavaScript, and efficient code to ensure fast loading times even on slower connections.",
+            },
+        ],
+        outcomes: [
+            {
+                title: "70% Increase in Online Inquiries",
+                description: "The professional website has attracted significantly more customer inquiries and quote requests.",
+            },
+            {
+                title: "45% Growth in Customer Base",
+                description:
+                    "Expanded market reach has helped Next Paints acquire new customers beyond their traditional local market.",
+            },
+            {
+                title: "Streamlined Sales Process",
+                description:
+                    "The online ordering system has reduced administrative work and improved the efficiency of the sales process.",
+            },
+            {
+                title: "Enhanced Brand Perception",
+                description:
+                    "The professional online presence has elevated the company's image in the market, positioning them as a modern, quality-focused brand.",
+            },
+        ],
+        testimonial: {
+            quote:
+                "The website developed by TechSolutions has transformed our business. It perfectly captures our brand identity and has significantly improved our market reach. The intuitive design makes it easy for customers to find our products, and the ordering system has streamlined our sales process. We've received numerous compliments on the website's professional look and feel.",
+            author: "David Mukasa",
+            position: "Marketing Director",
+            company: "Next Paints Limited",
+        },
+        images: [
+            "/pictures/paints-1.png?height=600&width=800&text=Next+Paints+Homepage",
+            "/pictures/paints-2.png?height=600&width=800&text=Products+Page",
+            "/pictures/paints-3.png?height=600&width=800&text=About+Us+Section",
+            "/pictures/paints-4.png?height=600&width=800&text=Contact+Form",
+            "/pictures/paints-5.png?height=600&width=800&text=Contact+Form",
+        ],
+        mainImage: "/pictures/paints-1.png?height=600&width=800&text=Next+Paints+Website",
+        link: "https://grand-tech.github.io/next-paints",
+        nextProject: "nala-healthcare-management-system",
+        prevProject: "e-mart-platform",
     },
     {
         slug: "nala-healthcare-management-system",

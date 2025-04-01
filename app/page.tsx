@@ -6,6 +6,7 @@ import {testimonials} from "@/lib/data/home";
 import {projectsDetails} from "@/lib/data/portfolio";
 import {Badge} from "@/components/ui/badge";
 import {servicesDetails} from "@/lib/data/services";
+import { getUri } from "@/lib/utils";
 
 const baseUrl = process.env.GITHUB_PAGES ? "/website" : ""
 
@@ -39,7 +40,7 @@ export default function Home() {
                             </div>
                         </div>
                         <Image
-                            src={`${baseUrl}/pictures/home_page.webp?height=550&width=550`}
+                            src={getUri("/pictures/home_page.webp?height=550&width=550")}
                             width={550}
                             height={550}
                             alt="Hero Image"
@@ -162,8 +163,8 @@ export default function Home() {
                                 </div>
                                 <div className="p-4">
                                     <h3 className="text-xl font-bold">{project.title}</h3>
-                                    <p className="text-sm text-muted-foreground mt-2 space-x-1">{project.technologies.slice(0, 3).map(technology => (
-                                        <Badge variant={"outline"}>{technology.name}</Badge>))}</p>
+                                    <p className="text-sm text-muted-foreground mt-2 space-x-1">{project.technologies.slice(0, 3).map((technology,index) => (
+                                        <Badge key={index} variant={"outline"}>{technology.name}</Badge>))}</p>
                                     <p className="mt-2 text-muted-foreground">{project.shortDescription}</p>
                                     <Link href={`/portfolio/${project.slug}`}>
                                         <Button variant="link" className="mt-2 p-0">
@@ -223,7 +224,7 @@ export default function Home() {
                                 </div>
                                 <div className="mt-6 flex items-center space-x-4">
                                     <div className="rounded-full bg-muted border-2 border-primary">
-                                        <Image src={testimonial.image} alt={testimonial.name} width={30} height={30} className={"rounded-full"} />
+                                        <Image src={getUri(testimonial.image)} alt={testimonial.name} width={30} height={30} className={"rounded-full"} />
                                     </div>
                                     <div>
                                         <p className="text-sm font-medium">{testimonial.name}</p>

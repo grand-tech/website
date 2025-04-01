@@ -26,14 +26,7 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-# lock file
-package-lock.json
+# Lockfiles
 yarn.lock
-.pnpm-lock.yaml
-build.lock
 bun.lock
-
-# ide files
-.idea
-.vscode
-*.suo
+package-lock.json

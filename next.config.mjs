@@ -1,9 +1,12 @@
 let userConfig = undefined
+try {
+  userConfig = await import('./v0-user-next.config')
+} catch (e) {
+  // ignore error
+}
 
+/** @type {import('next').NextConfig} */
 const nextConfig = {
-  assetPrefix: process.env.GITHUB_PAGES ? '/website' : '',
-  basePath:  process.env.GITHUB_PAGES ? '/website' : '',
-  output: "export",
   eslint: {
     ignoreDuringBuilds: true,
   },

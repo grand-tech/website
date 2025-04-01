@@ -30,3 +30,7 @@ next-env.d.ts
 yarn.lock
 bun.lock
 package-lock.json
+
+IDE files
+.idea
+.vscode

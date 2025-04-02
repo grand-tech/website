@@ -10,7 +10,7 @@ export const Footer = () => {
             <div className="container px-4 md:px-6 py-12 md:py-16">
                 <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4">
                     <div className="space-y-4">
-                        <h3 className="text-lg font-bold">GrandTech Technologies</h3>
+                        <h3 className="text-lg font-bold">GrandTech Solutions</h3>
                         <p className="text-sm text-muted-foreground">
                             Transforming ideas into digital reality since 2015. We build innovative software solutions that drive
                             business growth.
@@ -99,7 +99,7 @@ export const Footer = () => {
                     </div>
                 </div>
                 <div className="mt-12 border-t pt-6 text-center text-sm text-muted-foreground">
-                    <p>&copy; {new Date().getFullYear()} GrandTech Technologies. All rights reserved.</p>
+                    <p>&copy; {new Date().getFullYear()} GrandTech Solutions. All rights reserved.</p>
                 </div>
             </div>
         </footer>

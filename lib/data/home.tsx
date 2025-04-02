@@ -2,19 +2,19 @@ export const testimonials = [
     {
         name: "James K.",
         position: "CEO, MarketWave",
-        text: "GrandTech Solutions transformed our online presence! Their SEO and social media strategies helped us reach a wider audience, and our website traffic has doubled in just three months. Highly recommended!",
+        text: "Grand Technology Solutions transformed our online presence! Their SEO and social media strategies helped us reach a wider audience, and our website traffic has doubled in just three months. Highly recommended!",
         image: "/pictures/client1.webp"
     },
     {
         name: "Linda M.",
         position: "Founder, EcoStyle",
-        text: "Our website went from outdated to outstanding! The team at GrandTech Solutions created a stunning, user-friendly site that truly represents our brand. We've seen an increase in engagement and conversions!",
+        text: "Our website went from outdated to outstanding! The team at Grand Technologies Solutions created a stunning, user-friendly site that truly represents our brand. We've seen an increase in engagement and conversions!",
         image: "/pictures/client2.webp"
     },
     {
         name: "David K.",
         position: "Product Manager, FitTrack",
-        text: "We needed a seamless, high-performing app, and GrandTech Solutions delivered beyond our expectations. The app runs smoothly on both iOS and Android, and our users love it!",
+        text: "We needed a seamless, high-performing app, and Grand Technologies Solutions delivered beyond our expectations. The app runs smoothly on both iOS and Android, and our users love it!",
         image: "/pictures/client3.webp"
     },
 ]

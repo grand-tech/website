@@ -32,7 +32,7 @@ export const Header=()=> {
         <div className="flex items-center gap-2">
           <Image src={logo} alt={"logo"} height={30} width={30} className={"rounded-full"} />
           <Link href="/" className="font-bold text-xl">
-            Grand Technologies
+            GrandTech Solutions
           </Link>
         </div>
 

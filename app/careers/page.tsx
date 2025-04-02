@@ -13,7 +13,7 @@ export default function AboutPage() {
                 <div className="container px-4 md:px-6">
                     <div className="flex flex-col items-center justify-center space-y-4 text-center">
                         <div className="space-y-2">
-                            <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl">About Grand Technologies</h1>
+                            <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl">About GrandTech Solutions</h1>
                             <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                                 We're a team of passionate developers, designers, and strategists dedicated to creating exceptional
                                 software and technological solutions.
@@ -31,7 +31,7 @@ export default function AboutPage() {
                             <div className="inline-block rounded-lg bg-muted px-3 py-1 text-sm">Our Story</div>
                             <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight">From Startup to Industry Leader</h2>
                             <p className="text-muted-foreground md:text-xl/relaxed">
-                                Founded in 2023, Grand Technologies Solutions began as a small team of developers with a big vision: to create software
+                                Founded in 2023, GrandTech Solutions began as a small team of developers with a big vision: to create software
                                 that makes a difference. What started as a three-person operation has grown into a full-service software
                                 development agency with clients across the globe.
                             </p>

@@ -9,7 +9,7 @@ import {Footer} from "@/components/footer"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Grand Technologies - Software Development Agency",
+  title: "GrandTech Solutions - Software Development Agency",
   description: "We build innovative software solutions that drive business growth and enhance user experiences.",
   manifest: "/manifest/manifest.json",
   // icons: "/favicon.ico",

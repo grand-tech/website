@@ -12,7 +12,7 @@ export const Footer = () => {
                     <div className="space-y-4">
                         <h3 className="text-lg font-bold">GrandTech Solutions</h3>
                         <p className="text-sm text-muted-foreground">
-                            Transforming ideas into digital reality since 2015. We build innovative software solutions that drive
+                            Transforming ideas into digital reality since 2023. We build innovative software solutions that drive
                             business growth.
                         </p>
                         <div className="flex space-x-4">
